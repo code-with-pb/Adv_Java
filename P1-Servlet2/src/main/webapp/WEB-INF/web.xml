@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+	
+	<servlet>
+		<servlet-name>prvn</servlet-name>
+		<servlet-class>com.pravin.Adding1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>prvn</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>aj</servlet-name>
+		<servlet-class>com.pravin.Log</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>aj</servlet-name>
+		<url-pattern>/log</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ak</servlet-name>
+		<servlet-class>com.pravin.P1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ak</servlet-name>
+		<url-pattern>/data</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
