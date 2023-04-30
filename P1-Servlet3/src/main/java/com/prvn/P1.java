@@ -15,6 +15,8 @@ public class P1 extends HttpServlet {
 		
 		int k = j+i;
 		
+		req.setAttribute("k",k);
+		
 		RequestDispatcher rd = req.getRequestDispatcher("rk");
 		rd.forward(req, res);
 		

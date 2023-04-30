@@ -12,7 +12,11 @@ public class P2 extends HttpServlet {
 		
 		PrintWriter o = res.getWriter();
 		
-		o.println("Hello Second Servlet");
+		int k = (int) req.getAttribute("k"); //(int) because it will giving us string value so we typecast it 
 		
+		int s = k *k;
+		
+		o.println(k);
+		o.println("Square = "+s);
 	}
 }
