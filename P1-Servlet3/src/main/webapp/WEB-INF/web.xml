@@ -17,4 +17,76 @@
 		<servlet-name>ak</servlet-name>
 		<url-pattern>/rk</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>pp</servlet-name>
+		<servlet-class>com.prvn.P3</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>pp</servlet-name>
+		<url-pattern>/pb</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>gg</servlet-name>
+		<servlet-class>com.prvn.P4</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>gg</servlet-name>
+		<url-pattern>/anj</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>kk</servlet-name>
+		<servlet-class>com.prvn.P5</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>kk</servlet-name>
+		<url-pattern>/di</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>jk</servlet-name>
+		<servlet-class>com.prvn.P6</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>jk</servlet-name>
+		<url-pattern>/nd</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>pg</servlet-name>
+		<servlet-class>com.prvn.P7</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>pg</servlet-name>
+		<url-pattern>/ti</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>hola</servlet-name>
+		<servlet-class>com.prvn.P8</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>hola</servlet-name>
+		<url-pattern>/ki</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ni</servlet-name>
+		<servlet-class>com.prvn.P9</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ni</servlet-name>
+		<url-pattern>/p</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>nine</servlet-name>
+		<servlet-class>com.prvn.P10</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>nine</servlet-name>
+		<url-pattern>/dp</url-pattern>
+	</servlet-mapping>
 </web-app>

@@ -8,10 +8,10 @@
 </head>
 <body bgcolor = "skyblue">
 	<%  
-	String s = request.getParameter("n1");
-	String m = request.getParameter("m1");
+	//String s = request.getParameter("n1");
+	//String m = request.getParameter("m1");
 	
-	out.println(s+" "+m);
+	out.println(5+7);//s+" "+m);
 	%>
 </body>
 </html>

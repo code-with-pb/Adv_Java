@@ -18,4 +18,39 @@
 		<url-pattern>/as</url-pattern>
 	</servlet-mapping>
 	
+		<servlet>
+		<servlet-name>adi</servlet-name>
+		<servlet-class>com.prvn.P3</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>adi</servlet-name>
+		<url-pattern>/ss</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>ji</servlet-name>
+		<servlet-class>com.prvn.P4</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ji</servlet-name>
+		<url-pattern>/jk</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ass</servlet-name>
+		<servlet-class>com.prvn.P5</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ass</servlet-name>
+		<url-pattern>/a</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>app</servlet-name>
+		<servlet-class>com.prvn.P6</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>app</servlet-name>
+		<url-pattern>/b</url-pattern>
+	</servlet-mapping>
 </web-app>
